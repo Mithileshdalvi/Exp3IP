@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Ads Page</title>
+</head>
+
+<body>
+    <div class="container-fluid vw-100 vh-100">
+        <div class="row vh-100">
+            <nav class="container col-md-2 nav nav-expand-md navbar-dark flex-column bg-primary text-white p-3">
+                <div class="mb-4">
+                    <h1 class="fs-2">
+                        Mithilesh Dalvi
+                        <h5>Thus, Oct 12th 2021</h5>
+                    </h1>
+                </div>
+                <ul class="navbar-nav">
+                    <h4 class="nav-item">
+                        <a href="./index.html" class="nav-link">
+                            <i class="fas fa-home"></i>
+                            Dashboard
+                        </a>
+                    </h4>
+                    <h4 class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-user"></i>
+                            Users
+                        </a>
+                    </h4>
+                    <h4 class="nav-item">
+                        <a href="./ads.html" class="nav-link active">
+                            <i class="fas fa-file-alt"></i>
+                            Ads
+                        </a>
+                    </h4>
+                </ul>
+                <div class="mt-4 align-self-baseline">
+                    <button class="btn btn-lg btn-outline-light">Logout</button>
+                </div>
+            </nav>
+            <div class="container-fluid col-md-10 d-flex flex-column bg-light p-2">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-sm-10">
+                            <div class="form-group my-2">
+                                <input type="search" class="form-control form-control-lg px-2 py-1" name="search"
+                                    id="search" aria-describedby="helpId" placeholder="Search your ads here" />
+                            </div>
+                        </div>
+                        <div class="col-sm-1">
+                            <button type="button" class="btn btn-primary btn-lg">Refresh</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 my-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title py-2">New and Unverified Users</h4>
+                                <table class="table border table-hover px-2 fs-5">
+                                    <thead class="bg-primary text-white">
+                                        <tr>
+                                            <th>Sr no</th>
+                                            <th>ID</th>
+                                            <th>AD Title</th>
+                                            <th>AD Status</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="px-4">
+                                            <td>1</td>
+                                            <td>201391012</td>
+                                            <td>Samsung M31</td>
+                                            <td class="text-primary fw-bold">Verified</td>
+                                            <td>
+                                                <button class="btn btn-outline-primary" type="button">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr class="px-4">
+                                            <td>2</td>
+                                            <td>4045929112</td>
+                                            <td>Samsung M31s</td>
+                                            <td class="text-danger fw-bold">Unverified</td>
+                                            <td>
+                                                <button class="btn btn-outline-primary" type="button">View</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
